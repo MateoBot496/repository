@@ -1,0 +1,65 @@
+:root{
+    color-scheme: dark;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0.5vh;
+}
+
+ul {
+    list-style-type: none; /* Elimina el punto de las listas */
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    
+  }
+  a:hover, a:focus {
+    color: rgb(69, 69, 104);
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+    overflow-x: hidden;
+}
+
+/* Header con un borde, fondo y algo de padding */
+header {
+    width: 100%;
+    position: sticky; /* Sticky, para que se quede pegado en el top */
+    top: 0; /* Fija el header en la parte superior cuando se hace scroll */
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    z-index: 1000; /* Para asegurarse de que esté encima */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para separar el header del contenido */
+    margin: 0; /* Elimina cualquier margen extra */
+    border: none; /* Asegura que no haya borde */
+}
+
+header h1 a{
+    color: black;
+}
+
+
+.explicacion {
+    margin: 4vh;
+    font-size: 1.1rem; /* Tamaño de fuente cómodo */
+    line-height: 1.6; /* Altura de línea para hacer el texto más legible */
+    color: black; /* Color oscuro para el texto */
+    background-color: aliceblue; /* Fondo suave */
+    border-left: 5px solid #3498db; /* Línea decorativa a la izquierda */
+    padding: 4vh; /* Espaciado alrededor del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+}

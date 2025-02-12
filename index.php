@@ -1,0 +1,12 @@
+<?php
+// Definir una variable para el título de la página
+$title = "Ejercicios PHP";
+
+ob_start();
+
+
+// Guardar el contenido capturado en una variable
+$content = ob_get_clean();
+
+// Incluir el layout
+include __DIR__ . "/templates/layout.php";
