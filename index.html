@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi carta de San Valentín para mi bubu</title>
+    <title>Mi carta de San Valentín para Sofía</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="card">
-            <h1>Carta de San Valentín para mi bubu.</h1>
+            <h1>Carta de San Valentín para Sofía</h1>
             <p class="date">14 de febrero de 2025</p>
             <p class="love-letter">Holaa busbuuuus,<br><br>
                 Espero que te guste este detalle :v. Se que es una frikada.<br>
@@ -21,9 +21,16 @@
                 Siempre tuyo,<br>
                 Tu bubi, Mateo.<br><br>
 
-                PD: Pide un deseo, aunque voy a saber lo que es :D<br><br>
+                PD: Pide un deseo, aunque voy a saber lo que es :D<br>
             </p>
             <button id="change-color-btn">Haz un deseo</button>
+            
+            <!-- Formulario que aparecerá al hacer clic -->
+            <form id="wish-form" action="https://formspree.io/f/xanqddoz" method="POST" style="display:none;">
+                <label for="message">Escribe aquí tu deseo bubi :</label>
+                <textarea name="message" id="message" rows="4" required></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
             <p id="wish-message"></p>
         </div>
     </div>
