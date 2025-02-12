@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    color: #e63946;
+    font-size: 2em;
+}
+
+.date {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.love-letter {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d62d2d;
+}
+
+/* Mensaje de deseo */
+#wish-message {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #555;
+}
